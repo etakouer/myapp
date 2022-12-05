@@ -3,7 +3,7 @@ import express from "express"
 const app = express()
 
 app.use("/", (req, res) => {
-	res.send("Hey ! it's myapp " + crypto.randomUUID().slice(-8))
+	res.send("Hey ! it's myapp 1 " + crypto.randomUUID().slice(-8))
 })
 
 app.listen(4000, () => {
